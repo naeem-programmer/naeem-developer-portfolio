@@ -1,36 +1,17 @@
 /* Common Shard Style */
 
-body{
+body {
 
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-
-/* Nav Related Styles */
-
-nav{
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
-}
-
-.nav-title{
-
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-    
-}
-
-.text-primary{
+.text-primary {
 
     color: #fd6e0a;
 }
 
-.btn-primary{
+.btn-primary {
 
     border-radius: 5px;
     background: #fd6e0a;
@@ -39,21 +20,60 @@ nav{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
 
+}
+
+.section-title {
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-discription {
+
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 
 
 }
 
-nav > ul{
+/* Nav Related Styles */
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+
+nav>ul {
 
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
 
     list-style: none;
     margin-right: 50px;
+    font-size: 26px;
 }
 
 nav a {
@@ -64,19 +84,70 @@ nav a {
 
 /* Header Related Style */
 
-.header{
+.header {
 
     background-color: #fff8f3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
-.banner{
+.banner {
 
-    padding:30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.profile-picture{
+.banner-content {
+
+    max-width: 500px;
+}
+
+.banner .profile-picture {
 
     width: 500px;
+    height: 600px;
+}
+
+.banner-greeting {
+
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-discripting {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+/* Main Section Style */
+
+
+
+
+
+/* About Section Style */
+
+.about {
+
+    padding: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    margin: 130px ;
 }
